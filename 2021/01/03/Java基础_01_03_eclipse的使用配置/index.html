@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="一、首次使用的必要设置1. Eclipse 的安装将 Eclipse 解压或安装到没有中文且没有空格的路径下。 点击安装文件中的 “eclipse.exe”，右键，发送到桌面快捷方式。  桌面出现图标，双击打开。 2.设置workspace首次启动,选择指定的工作空间(workspace)，用于存放 java 代码。    注:中间的蓝框,不建议打钩.如果打钩,每次 Eclipse 会自动进入上面">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="一、首次使用的必要设置1. Eclipse 的安装将 Eclipse 解压或安装到没有中文且没有空格的路径下。 点击安装文件中的 “eclipse.exe”，右键，发送到桌面快捷方式。  桌面出现图标，双击打开。 2.设置workspace首次启动,选择指定的工作空间(workspace)，用于存放 java 代码。    注:中间的蓝框,不建议打钩.如果打钩,每次 Eclipse 会自动进入上面">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media%5C01_2%5C000.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/001.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/002.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/003.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/004.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/005.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/006.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/007.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/008.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/009.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/010.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/011.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/012.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/013.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/014.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/015.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/016.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/017.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/018.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/019.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/020.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/021.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/022.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/023.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/024.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/025.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/026.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/027.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/028.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/029.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/030.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/031.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/032.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/033.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/034.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/035.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/036.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/037.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/038.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/039.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/040.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/041.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/042.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/043.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/044.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media/01_2/045.png">
+<meta property="article:published_time" content="2021-01-03T13:39:34.972Z">
+<meta property="article:modified_time" content="2020-05-27T10:22:25.889Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/media%5C01_2%5C000.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Java基础_01_03_eclipse的使用配置" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/" class="article-date">
+  <time class="dt-published" datetime="2021-01-03T13:39:34.972Z" itemprop="datePublished">2021-01-03</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h1 id="一、首次使用的必要设置"><a href="#一、首次使用的必要设置" class="headerlink" title="一、首次使用的必要设置"></a>一、首次使用的必要设置</h1><h2 id="1-Eclipse-的安装"><a href="#1-Eclipse-的安装" class="headerlink" title="1. Eclipse 的安装"></a><strong>1. Eclipse</strong> <strong>的安装</strong></h2><p>将 Eclipse 解压或安装到没有中文且没有空格的路径下。 点击安装文件中的 “eclipse.exe”，右键，发送到桌面快捷方式。</p>
+<p><img src="media%5C01_2%5C000.png" alt="1590410053178"></p>
+<p>桌面出现图标，双击打开。</p>
+<h2 id="2-设置workspace"><a href="#2-设置workspace" class="headerlink" title="2.设置workspace"></a><strong>2.设置workspace</strong></h2><p>首次启动,选择指定的工作空间(workspace)，用于存放 java 代码。 </p>
+<img src="media/01_2/001.png"/>
+
+<p>注:中间的蓝框,不建议打钩.如果打钩,每次 Eclipse 会自动进入上面选中的 workspace 中.不利于 Eclipse 开启其他 workspace。 </p>
+<p>点击”OK”,进入主界面.首次进入显示如下：可以去掉 welcome 页面右下角的钩，避免每次启动都显示。</p>
+ <img src="media/01_2/002.png"/>
+
+
+
+<h2 id="3-设置透视图-perspective"><a href="#3-设置透视图-perspective" class="headerlink" title="3.设置透视图(perspective)"></a><strong>3.设置透视图(perspective)</strong></h2><p>进入 Eclipse 编辑界面以后,首先选择如下的红框,设置透视图: </p>
+<img src="media/01_2/003.png"/>
+
+<p>点击”红框”，选择 JavaEE 透视图</p>
+<img src="media/01_2/004.png"/>
+
+
+
+<h2 id="4-添加透视图需要显示的结构"><a href="#4-添加透视图需要显示的结构" class="headerlink" title="4.添加透视图需要显示的结构"></a><strong>4.添加透视图需要显示的结构</strong></h2><p>在如下的文本框中依次输入相应结构的名字,调取出来。 </p>
+<img src="media/01_2/005.png"/>
+
+
+
+<h4 id="结构-1：Package-Explorer"><a href="#结构-1：Package-Explorer" class="headerlink" title="结构 1：Package Explorer"></a><strong>结构 1：Package Explorer</strong></h4><img src="media/01_2/006.png"/>
+
+<h4 id="结构-2：Navigator"><a href="#结构-2：Navigator" class="headerlink" title="结构 2：Navigator"></a><strong>结构 2：Navigator</strong></h4><img src="media/01_2/007.png"/>
+
+<h4 id="结构-3：Outline"><a href="#结构-3：Outline" class="headerlink" title="结构 3：Outline"></a><strong>结构 3：Outline</strong></h4><img src="media/01_2/008.png"/>
+
+<p>并统一拖放在界面的左端: </p>
+<img src="media/01_2/009.png"/>
+
+<h4 id="结构-4-Console"><a href="#结构-4-Console" class="headerlink" title="结构 4: Console"></a><strong>结构 4: Console</strong></h4><img src="media/01_2/010.png"/>
+
+<h2 id="5-关闭其它不需要的结构"><a href="#5-关闭其它不需要的结构" class="headerlink" title="5.关闭其它不需要的结构"></a><strong>5.关闭其它不需要的结构</strong></h2><img src="media/01_2/011.png"/>
+
+<p>以及 </p>
+<img src="media/01_2/012.png"/>
+
+<p>以及 </p>
+<img src="media/01_2/013.png"/>
+
+<p>以上红框标注的结构,都可以删除。(因为不常用) </p>
+<h2 id="6-设置编码集"><a href="#6-设置编码集" class="headerlink" title="6.设置编码集"></a><strong>6.设置编码集</strong></h2><img src="media/01_2/014.png"/>
+
+<img src="media/01_2/015.png"/>
+
+
+
+<p><strong>7.设置字体,字形,字体大小</strong></p>
+<img src="media/01_2/016.png"/>
+
+<p>双击:Text Font </p>
+<img src="media/01_2/017.png"/>
+
+<p>根据个人习惯进行选择即可。</p>
+<p><strong>8.设置package explorer 中右键:new下显示的结构</strong> </p>
+<img src="media/01_2/018.png"/>
+
+<p>点击进入: </p>
+<img src="media/01_2/019.png"/>
+
+<p>去除 New 前的选择,从子列表中选择常用的结构即可。</p>
+<img src="media/01_2/020.png"/>
+
+<img src="media/01_2/021.png"/>
+
+<img src="media/01_2/022.png"/>
+
+<p><strong>9.保存当前透视图</strong></p>
+<img src="media/01_2/023.png"/>
+
+<img src="media/01_2/024.png"/>
+
+<img src="media/01_2/025.png"/>
+
+<p>覆盖默认的透视图即可。</p>
+<h1 id="二、完成第一个-HelloWorld-程序"><a href="#二、完成第一个-HelloWorld-程序" class="headerlink" title="二、完成第一个 HelloWorld 程序"></a><strong>二、完成第一个</strong> <strong>HelloWorld</strong> <strong>程序</strong></h1><h2 id="1-创建工程"><a href="#1-创建工程" class="headerlink" title="1. 创建工程"></a><strong>1.</strong> <strong>创建工程</strong></h2><img src="media/01_2/026.png"/>
+
+<img src="media/01_2/027.png"/>
+
+<img src="media/01_2/028.png"/>
+
+<p>此时打上红框的钩,接着选择:No。这里表示以后我们都是用 JavaEE 的透视图打开 java 工程。 </p>
+<h2 id="2-创建包"><a href="#2-创建包" class="headerlink" title="2. 创建包"></a><strong>2.</strong> <strong>创建包</strong></h2><img src="media/01_2/029.png"/>
+
+<p>选中 src 后,右键,new-Package</p>
+<img src="media/01_2/030.png"/>
+
+
+
+<h2 id="3-创建类"><a href="#3-创建类" class="headerlink" title="3. 创建类"></a><strong>3.</strong> <strong>创建类</strong></h2><img src="media/01_2/031.png"/>
+
+<img src="media/01_2/032.png"/>
+
+<p>编写代码,并运行:</p>
+<img src="media/01_2/033.png"/>
+
+<h1 id="三、常见问题"><a href="#三、常见问题" class="headerlink" title="三、常见问题"></a><strong>三、常见问题</strong></h1><h2 id="1-双击-Eclipse-启动图标，不能正常启动-Eclipse"><a href="#1-双击-Eclipse-启动图标，不能正常启动-Eclipse" class="headerlink" title="1. 双击 Eclipse 启动图标，不能正常启动 Eclipse"></a><strong>1.</strong> <strong>双击</strong> <strong>Eclipse</strong> <strong>启动图标，不能正常启动</strong> <strong>Eclipse</strong></h2><p>启动不了的原因有很多种，这里需要大家从如下几个方面排查： </p>
+<ol>
+<li><p>环境变量是否正确配置，需要在命令行输入 javac.exe 或 java.exe 进行检查 </p>
+</li>
+<li><p>是否正确的安装了 JDK 和 JRE </p>
+</li>
+<li><p>安装的 JDK 的版本（32 位还是 64 位），必须与 Eclipse 版本一致 </p>
+</li>
+<li><p>修改 Eclipse 安装目录下的 eclipse.ini 配置文件 </p>
+</li>
+</ol>
+<h2 id="2-进入-Eclipse-时，没有可选择的-workspace"><a href="#2-进入-Eclipse-时，没有可选择的-workspace" class="headerlink" title="2. 进入 Eclipse 时，没有可选择的 workspace"></a><strong>2.</strong> <strong>进入</strong> <strong>Eclipse</strong> <strong>时，没有可选择的</strong> <strong>workspace</strong></h2><p><strong>原因：</strong></p>
+<img src="media/01_2/034.png"/>
+
+<p>由于勾选了上述红框，所以再次启动 Eclipse 时，不再显示可选择的 workspace。 </p>
+<p><strong>解决办法：</strong> </p>
+<img src="media/01_2/035.png"/>
+
+<p>在 windows – Preferences 下，将上述的红框勾选即可。</p>
+<h2 id="3-如何导入已有的工程"><a href="#3-如何导入已有的工程" class="headerlink" title="3. 如何导入已有的工程"></a><strong>3.</strong> <strong>如何导入已有的工程</strong></h2><img src="media/01_2/036.png"/>
+
+<p>接着，</p>
+<img src="media/01_2/037.png"/>
+
+<img src="media/01_2/038.png"/>
+
+<p>通过点击蓝框选择要导入的 Java 工程，然后勾选上述的两个红框，确认即可。 </p>
+<h2 id="4-如何导入已有的一个源文件"><a href="#4-如何导入已有的一个源文件" class="headerlink" title="4. 如何导入已有的一个源文件"></a><strong>4.</strong> <strong>如何导入已有的一个源文件</strong></h2><p>直接复制（ctrl + c）此源文件，直接在指定的工程的包下粘贴（ctrl + v）即可。</p>
+<h2 id="5-如何删除一个工程"><a href="#5-如何删除一个工程" class="headerlink" title="5. 如何删除一个工程"></a><strong>5.</strong> <strong>如何删除一个工程</strong></h2><img src="media/01_2/039.png"/>
+
+<h2 id="6-工程中的代码有乱码怎么办"><a href="#6-工程中的代码有乱码怎么办" class="headerlink" title="6. 工程中的代码有乱码怎么办"></a><strong>6.</strong> <strong>工程中的代码有乱码怎么办</strong></h2><p><strong>原因：</strong> </p>
+<p>出现乱码的代码所使用的字符编码集与工程设置使用的字符编码集不一致导致 的。 </p>
+<p><strong>如何解决：</strong> </p>
+<p>建议修改乱码文件的字符编码集即可。 </p>
+<h2 id="7-运行程序，误选择了-Java-透视图，如何调整为-JavaEE-的"><a href="#7-运行程序，误选择了-Java-透视图，如何调整为-JavaEE-的" class="headerlink" title="7. 运行程序，误选择了 Java 透视图，如何调整为 JavaEE 的"></a><strong>7.</strong> <strong>运行程序，误选择了</strong> <strong>Java</strong> <strong>透视图，如何调整为</strong> <strong>JavaEE</strong> <strong>的</strong></h2><img src="media/01_2/040.png"/>
+
+<p>将设置修改为上图设置的情况即可解决。</p>
+<h2 id="8-再创建一个-workspace，之前的设置怎么没了"><a href="#8-再创建一个-workspace，之前的设置怎么没了" class="headerlink" title="8. 再创建一个 workspace，之前的设置怎么没了"></a><strong>8.</strong> <strong>再创建一个 workspace，之前的设置怎么没了</strong></h2><p><strong>原因：</strong> </p>
+<p>我们对 Eclipse 做的设置，只对当前使用的 workspace 有效。设置的数据保存在相应 workspace 文件夹下的.metadata 文件夹中。如果创建了新的 workspace，则需要重新设置。 </p>
+<h2 id="9-如何在-Eclipse-中查看-Java-类库源代码呢？"><a href="#9-如何在-Eclipse-中查看-Java-类库源代码呢？" class="headerlink" title="9. 如何在 Eclipse 中查看 Java 类库源代码呢？"></a><strong>9.</strong> <strong>如何在</strong> <strong>Eclipse</strong> <strong>中查看</strong> <strong>Java</strong> <strong>类库源代码呢？</strong></h2><p>在代码中，综合使用 ctrl + 鼠标左键点击指定结构时，可以调出如下界面： </p>
+<img src="media/01_2/041.png"/>
+
+<p>点击按钮：Attach Source</p>
+<img src="media/01_2/042.png"/>
+
+<p>要导入的源码如果是文件方式存在，则选择：External File </p>
+<p>要导入的源码如果是文件夹方式存在，则选择：External Folder </p>
+<p>这里 jdk 源码以 src.zip 方式存在，所以选择：External File </p>
+<img src="media/01_2/043.png"/>
+
+<p>选中确认即可。 </p>
+<h2 id="10-如何在编写的代码中显示程序员的相关信息"><a href="#10-如何在编写的代码中显示程序员的相关信息" class="headerlink" title="10. 如何在编写的代码中显示程序员的相关信息"></a><strong>10.</strong> <strong>如何在编写的代码中显示程序员的相关信息</strong></h2><p>依次选择： </p>
+<p>Window–&gt;Preferences–&gt;Java–&gt;Code Style–&gt;Code Templates </p>
+<p>点击 Comments  </p>
+<p>（1） 找到 Types 然后双击填入以下几个信息即可 </p>
+<img src="media/01_2/044.png"/>
+
+<p>框中红色的，大家填写自己的信息即可。 </p>
+<img src="media/01_2/045.png"/>
+
+<p>框中红色的，大家填写自己的信息即可。 </p>
+<h1 id="四、常用快捷键的使用"><a href="#四、常用快捷键的使用" class="headerlink" title="四、常用快捷键的使用"></a><strong>四、常用快捷键的使用</strong></h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line">* 1.补全代码的声明：alt + &#x2F; </span><br><span class="line"></span><br><span class="line">* 2.快速修复: ctrl + 1  </span><br><span class="line"></span><br><span class="line">* 3.批量导包：ctrl + shift + o </span><br><span class="line"></span><br><span class="line">* 4.使用单行注释：ctrl + &#x2F; </span><br><span class="line"></span><br><span class="line">* 5.使用多行注释： ctrl + shift + &#x2F; </span><br><span class="line"></span><br><span class="line">* 6.取消多行注释：ctrl + shift + \ </span><br><span class="line"></span><br><span class="line">* 7.复制指定行的代码：ctrl + alt + down 或 ctrl + alt + up </span><br><span class="line"></span><br><span class="line">* 8.删除指定行的代码：ctrl + d </span><br><span class="line"></span><br><span class="line">* 9.上下移动代码：alt + up 或 alt + down </span><br><span class="line"></span><br><span class="line">* 10.切换到下一行代码空位：shift + enter </span><br><span class="line"></span><br><span class="line">* 11.切换到上一行代码空位：ctrl + shift + enter </span><br><span class="line"></span><br><span class="line">* 12.如何查看源码：ctrl + 选中指定的结构 或 ctrl + shift + t </span><br><span class="line"></span><br><span class="line">* 13.退回到前一个编辑的页面：alt + left  </span><br><span class="line"></span><br><span class="line">* 14.进入到下一个编辑的页面(针对于上面那条来说的)：alt + right </span><br><span class="line"></span><br><span class="line">* 15.光标选中指定的类，查看继承树结构：ctrl + t </span><br><span class="line"></span><br><span class="line">* 16.复制代码： ctrl + c </span><br><span class="line"></span><br><span class="line">* 17.撤销： ctrl + z </span><br><span class="line"></span><br><span class="line">* 18.反撤销： ctrl + y </span><br><span class="line"></span><br><span class="line">* 19.剪切：ctrl + x  </span><br><span class="line"></span><br><span class="line">* 20.粘贴：ctrl + v </span><br><span class="line"></span><br><span class="line">* 21.保存： ctrl + s</span><br><span class="line"></span><br><span class="line">* 22.全选：ctrl + a </span><br><span class="line"></span><br><span class="line">* 23.格式化代码： ctrl + shift + f </span><br><span class="line"></span><br><span class="line">* 24.选中数行，整体往后移动：tab </span><br><span class="line"></span><br><span class="line">* 25.选中数行，整体往前移动：shift + tab </span><br><span class="line"></span><br><span class="line">* 26.在当前类中，显示类结构，并支持搜索指定的方法、属性等：ctrl + o </span><br><span class="line"></span><br><span class="line">* 27.批量修改指定的变量名、方法名、类名等：alt + shift + r </span><br><span class="line"></span><br><span class="line">* 28.选中的结构的大小写的切换：变成大写： ctrl + shift + x </span><br><span class="line"></span><br><span class="line">* 29.选中的结构的大小写的切换：变成小写：ctrl + shift + y </span><br><span class="line"></span><br><span class="line">* 30.调出生成 getter&#x2F;setter&#x2F;构造器等结构： alt + shift + s </span><br><span class="line"></span><br><span class="line">* 31.显示当前选择资源(工程 or 文件)的属性：alt + enter </span><br><span class="line"></span><br><span class="line">* 32.快速查找：参照选中的 Word 快速定位到下一个 ：ctrl + k </span><br><span class="line"></span><br><span class="line">* 33.关闭当前窗口：ctrl + w </span><br><span class="line"></span><br><span class="line">* 34.关闭所有的窗口：ctrl + shift + w </span><br><span class="line"></span><br><span class="line">* 35.查看指定的结构使用过的地方：ctrl + alt + g </span><br><span class="line"></span><br><span class="line">* 36.查找与替换：ctrl + f </span><br><span class="line"></span><br><span class="line">* 37.最大化当前的 View：ctrl + m </span><br><span class="line"></span><br><span class="line">* 38.直接定位到当前行的首位：home </span><br><span class="line"></span><br><span class="line">* 39.直接定位到当前行的末位：end</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/" data-id="ckjh6of37000780ti7kuieea1" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2021/01/03/java%E5%9F%BA%E7%A1%80_02_%E5%8F%98%E9%87%8F%E3%80%81%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6_%E8%AF%BE%E4%BB%B6/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          (no title)
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_02_jdk%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_03-04_%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5%EF%BC%88%E4%B8%80%EF%BC%89+%EF%BC%88%E4%BA%8C%EF%BC%89/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/01/03/java%E5%9F%BA%E7%A1%80_02_%E5%8F%98%E9%87%8F%E3%80%81%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6_%E8%AF%BE%E4%BB%B6/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_02_jdk%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_01_%E5%88%9D%E8%AF%86Java_%E8%AF%BE%E4%BB%B6/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>

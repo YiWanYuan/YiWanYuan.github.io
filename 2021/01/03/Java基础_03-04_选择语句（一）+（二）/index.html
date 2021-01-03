@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="一、表达式和语句1、表达式 一个表达式可以产生一个值，有可能是运算(操作数和运算符组成)、函数调用、有可能是字面量。表达式可以放在任何需要值的地方。 5  –&gt;字面量    true    “Hello World”  2、语句 语句可以理解为一个行为，输出语句和赋值就是典型的语句。一个程序有很多个语句组成，一般情况下;分割一个一个的语句  二、相关概念1、语句结构分类​    语句结构：语">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_03-04_%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5%EF%BC%88%E4%B8%80%EF%BC%89+%EF%BC%88%E4%BA%8C%EF%BC%89/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="一、表达式和语句1、表达式 一个表达式可以产生一个值，有可能是运算(操作数和运算符组成)、函数调用、有可能是字面量。表达式可以放在任何需要值的地方。 5  –&gt;字面量    true    “Hello World”  2、语句 语句可以理解为一个行为，输出语句和赋值就是典型的语句。一个程序有很多个语句组成，一般情况下;分割一个一个的语句  二、相关概念1、语句结构分类​    语句结构：语">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_03-04_%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5%EF%BC%88%E4%B8%80%EF%BC%89+%EF%BC%88%E4%BA%8C%EF%BC%89/media/03/001.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_03-04_%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5%EF%BC%88%E4%B8%80%EF%BC%89+%EF%BC%88%E4%BA%8C%EF%BC%89/media/03/002.png">
+<meta property="og:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_03-04_%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5%EF%BC%88%E4%B8%80%EF%BC%89+%EF%BC%88%E4%BA%8C%EF%BC%89/media/03/003.png">
+<meta property="og:image" content="d:/20——AE/AA/01_课件/media/004.png">
+<meta property="article:published_time" content="2021-01-03T13:39:35.009Z">
+<meta property="article:modified_time" content="2020-06-18T05:24:32.007Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_03-04_%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5%EF%BC%88%E4%B8%80%EF%BC%89+%EF%BC%88%E4%BA%8C%EF%BC%89/media/03/001.png">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Java基础_03-04_选择语句（一）+（二）" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_03-04_%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5%EF%BC%88%E4%B8%80%EF%BC%89+%EF%BC%88%E4%BA%8C%EF%BC%89/" class="article-date">
+  <time class="dt-published" datetime="2021-01-03T13:39:35.009Z" itemprop="datePublished">2021-01-03</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h2 id="一、表达式和语句"><a href="#一、表达式和语句" class="headerlink" title="一、表达式和语句"></a>一、表达式和语句</h2><h3 id="1、表达式"><a href="#1、表达式" class="headerlink" title="1、表达式"></a>1、表达式</h3><blockquote>
+<p>一个表达式可以产生一个值，有可能是运算(操作数和运算符组成)、函数调用、有可能是字面量。表达式可以放在任何需要值的地方。</p>
+<p>5  –&gt;字面量    true    “Hello World”</p>
+</blockquote>
+<h3 id="2、语句"><a href="#2、语句" class="headerlink" title="2、语句"></a>2、语句</h3><blockquote>
+<p>语句可以理解为一个行为，输出语句和赋值就是典型的语句。一个程序有很多个语句组成，一般情况下;分割一个一个的语句</p>
+</blockquote>
+<h2 id="二、相关概念"><a href="#二、相关概念" class="headerlink" title="二、相关概念"></a>二、相关概念</h2><h3 id="1、语句结构分类"><a href="#1、语句结构分类" class="headerlink" title="1、语句结构分类"></a>1、语句结构分类</h3><p>​    语句结构：语句执行的流程。</p>
+<p>​    程序的流程控制有三种:顺序结构,选择结构,循环结构。</p>
+<h3 id="2、语句块"><a href="#2、语句块" class="headerlink" title="2、语句块"></a>2、语句块</h3><p>​    已经学的语句块：主程序框架【类主体】+main主入口框架【main主体】 </p>
+<p>​    语句块，就是“结构名称”包含的一段{   }： { 代表开始，}代表结束，同一个语句块要注意对齐，嵌套的要缩进。</p>
+<h3 id="3、逻辑运算符"><a href="#3、逻辑运算符" class="headerlink" title="3、逻辑运算符"></a>3、逻辑运算符</h3><p>​    可以合并多个条件表达式</p>
+<p>​    &amp;&amp;：且     (htmlScore&gt;90) &amp;&amp; (javaSocre&gt;90)，都要满足</p>
+<p>​    ||：或     (htmlScore&gt;90) || (javaSocre&gt;90)，满足一个就可以</p>
+<p>​    ！：非/取反    !(htmlScore&gt;90)    分数小于等于90</p>
+<h2 id="三、选择结构一"><a href="#三、选择结构一" class="headerlink" title="三、选择结构一"></a>三、选择结构一</h2><h2 id="if选择语句"><a href="#if选择语句" class="headerlink" title="if选择语句"></a>if选择语句</h2><p>根据条件判断之后再做处理的一种语法结构。</p>
+<h3 id="1）基本if选择语句"><a href="#1）基本if选择语句" class="headerlink" title="1）基本if选择语句"></a>1）基本if选择语句</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(关系表达式)｛ <span class="comment">//关系表达式返回的结果要么为true或者false</span></span><br><span class="line">	语句体; </span><br><span class="line">｝</span><br></pre></td></tr></table></figure>
+<p>注：<font style='color:red'>表达式必须结果布尔值true/false，代表条件的真假。</font></p>
+<ul>
+<li><strong>执行流程</strong><ul>
+<li>首先判断关系表达式看其结果是true还是false </li>
+<li>如果是true就执行语句体 </li>
+<li>如果是false就不执行语句体 </li>
+</ul>
+</li>
+</ul>
+<img src="media/03/001.png" width="60%"/>
+
+
+
+<h3 id="2）if-else选择语句"><a href="#2）if-else选择语句" class="headerlink" title="2）if-else选择语句"></a>2）if-else选择语句</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(关系表达式) &#123; </span><br><span class="line">	语句体<span class="number">1</span>; </span><br><span class="line">&#125;<span class="keyword">else</span> &#123; </span><br><span class="line">	语句体<span class="number">2</span>; </span><br><span class="line">&#125; </span><br></pre></td></tr></table></figure>
+<ul>
+<li>执行流程<ul>
+<li>首先判断关系表达式看其结果是true还是false </li>
+<li>如果是true就执行语句体1 </li>
+<li>如果是false就执行语句体2</li>
+</ul>
+</li>
+</ul>
+<img src="media/03/002.png" width="80%"/>
+
+
+
+<h3 id="3）多重if选择语句"><a href="#3）多重if选择语句" class="headerlink" title="3）多重if选择语句"></a>3）多重if选择语句</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (判断条件<span class="number">1</span>) &#123; </span><br><span class="line">	执行语句<span class="number">1</span>; </span><br><span class="line">&#125; <span class="keyword">else</span> <span class="keyword">if</span> (判断条件<span class="number">2</span>) &#123; </span><br><span class="line">	执行语句<span class="number">2</span>; </span><br><span class="line">&#125;</span><br><span class="line">... </span><br><span class="line">&#125;<span class="keyword">else</span> <span class="keyword">if</span> (判断条件n) &#123; </span><br><span class="line">	执行语句n; </span><br><span class="line">&#125; <span class="keyword">else</span> &#123; </span><br><span class="line">	执行语句n+<span class="number">1</span>; </span><br><span class="line">&#125; </span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>执行流程</strong><ul>
+<li>首先判断关系表达式1看其结果是true还是false </li>
+<li>如果是true就执行语句体1 </li>
+<li>如果是false就继续判断关系表达式2看其结果是true还是false </li>
+<li>如果是true就执行语句体2 </li>
+<li>如果是false就继续判断关系表达式…看其结果是true还是false </li>
+<li>…</li>
+<li>如果没有任何关系表达式为true，就执行语句体n+1。</li>
+</ul>
+</li>
+</ul>
+<img src="media/03/003.png" width="80%"/>
+
+
+
+<h3 id="4）嵌套if选择语句"><a href="#4）嵌套if选择语句" class="headerlink" title="4）嵌套if选择语句"></a>4）嵌套if选择语句</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(布尔条件<span class="number">1</span>)&#123;</span><br><span class="line">        代码块<span class="number">1</span>;</span><br><span class="line">		<span class="keyword">if</span>(布尔条件<span class="number">2</span>)&#123;</span><br><span class="line">        	代码块<span class="number">2</span>;</span><br><span class="line">		&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        	代码块<span class="number">3</span>;</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        代码块<span class="number">4</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h2 id="四、选择结构二"><a href="#四、选择结构二" class="headerlink" title="四、选择结构二"></a>四、选择结构二</h2><h2 id="switch选择结构"><a href="#switch选择结构" class="headerlink" title="switch选择结构"></a>switch选择结构</h2><h3 id="1）语法结构"><a href="#1）语法结构" class="headerlink" title="1）语法结构"></a>1）语法结构</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">switch</span> (变量) &#123;</span><br><span class="line">      <span class="keyword">case</span> 常量 <span class="number">1</span>:</span><br><span class="line">			语句块<span class="number">1</span>;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">      <span class="keyword">case</span> 常量 <span class="number">2</span>:</span><br><span class="line">			语句块<span class="number">2</span>;</span><br><span class="line">			<span class="keyword">break</span>;</span><br><span class="line">	  ......</span><br><span class="line">	<span class="keyword">default</span>:</span><br><span class="line">			语句块n;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>执行流程</strong><ul>
+<li>首先计算出表达式的值 </li>
+<li>其次，和case依次比较，一旦有对应的值，就会执行相应的语句，在执行的过程中，遇到break就会结 束。</li>
+<li>最后，如果所有的case都和表达式的值不匹配，就会执行default语句体部分，然后程序结束掉。 </li>
+</ul>
+</li>
+</ul>
+<img src="D:/20——AE/AA/01_课件/media/004.png" width="70%"/>
+
+<h3 id="2）产生随机数"><a href="#2）产生随机数" class="headerlink" title="2）产生随机数"></a>2）产生随机数</h3><pre><code> int random = (int) (Math.random() * 10);   结果是0-10之间的整数</code></pre>
+<h3 id="3）处理系统异常"><a href="#3）处理系统异常" class="headerlink" title="3）处理系统异常"></a>3）处理系统异常</h3><p>​    xx.hasNextInt()    如果xx扫描器输入的是数字，结果为true</p>
+<h3 id="4）switch和多重if区别"><a href="#4）switch和多重if区别" class="headerlink" title="4）switch和多重if区别"></a>4）switch和多重if区别</h3><blockquote>
+<p>相同点：都是用来处理多分支条件的结构</p>
+<p> 不同点：</p>
+<p>​    switch选择结构，【只】能处理【等值条件判断】的情况。</p>
+<p>​    多重if选择结构： 【不仅】能处理【等值条件判断】，也能处理【连续区间条件判断】<br> 总结：等值判断用switch，区间判断用if。</p>
+</blockquote>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2021/01/03/Java%E5%9F%BA%E7%A1%80_03-04_%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5%EF%BC%88%E4%B8%80%EF%BC%89+%EF%BC%88%E4%BA%8C%EF%BC%89/" data-id="ckjh6of36000680ti590133ba" data-title="" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2021/01/03/java%E5%9F%BA%E7%A1%80_02_%E5%8F%98%E9%87%8F%E3%80%81%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6_%E8%AF%BE%E4%BB%B6/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/01/">January 2021</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_03-04_%E9%80%89%E6%8B%A9%E8%AF%AD%E5%8F%A5%EF%BC%88%E4%B8%80%EF%BC%89+%EF%BC%88%E4%BA%8C%EF%BC%89/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/01/03/java%E5%9F%BA%E7%A1%80_02_%E5%8F%98%E9%87%8F%E3%80%81%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6_%E8%AF%BE%E4%BB%B6/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_03_eclipse%E7%9A%84%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_02_jdk%E5%AE%89%E8%A3%85%E5%8F%8A%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2021/01/03/Java%E5%9F%BA%E7%A1%80_01_01_%E5%88%9D%E8%AF%86Java_%E8%AF%BE%E4%BB%B6/">(no title)</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 John Doe<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
